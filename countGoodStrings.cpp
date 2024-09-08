@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 class Solution {
 public:
     int countGoodStrings(int low, int high, int zero, int one) {
@@ -25,5 +28,10 @@ public:
             answer %= mod;
         }
         return answer;
+    }
+
+    int main() {
+
+	return 0;
     }
 };
